@@ -1,0 +1,71 @@
+header {
+  height: 100vh;
+  //   background-color: coral;
+  //   text-align: center;
+  background-image: url(/media/nexus.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  padding-top: 20px;
+  position: fixed;
+}
+
+header h1 {
+  //   margin: auto;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  font-size: 4.6rem;
+  //   position: relative;
+  width: 70%;
+  //   align-self: center;
+  margin-top: 300px;
+}
+
+// header h1::before {
+//   content: "";
+//   height: 8px;
+//   margin: auto;
+//   position: absolute;
+//   right: 25%;
+//   top: -10%;
+//   width: 390px;
+//   background-color: rgba(0, 0, 0, 0.42);
+//   //   padding: 10px;
+//   z-index: 50;
+// }
+
+// header h1::after {
+//   content: "";
+//   height: 8px;
+//   margin: auto;
+//   position: absolute;
+//   left: 25%;
+//   bottom: -10%;
+//   width: 390px;
+//   background-color: rgba(0, 0, 0, 0.42);
+//   //   padding: 10px;
+//   z-index: 50;
+// }
+
+nav ul {
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 30%;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+header .wrapper {
+  display: flex;
+  flex-direction: column;
+  //   justify-content: space-between;
+  //   align-items: center;
+}
