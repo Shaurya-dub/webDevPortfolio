@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/sass/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"
+    />
+
     <title>Shaurya Likes To Code</title>
   </head>
   <body>
@@ -23,102 +28,326 @@
     </header>
 
     <main>
-      <div class="wrapper">
-        <section class="aboutMe">
+      <section class="aboutMe">
+        <div class="wrapper">
           <h2>About Me</h2>
-          <p>Here's what I'm good at</p>
-          <ul class="techStack">
-            <li><i>HTML</i></li>
-            <li><i>CSS</i></li>
-            <li><i>JS</i></li>
-            <li><i>Sass</i></li>
-            <li><i>jQuery</i></li>
-            <li><i>React</i></li>
-          </ul>
-        </section>
+          <div class="personalDetails">
+            <p>
+              Hi I'm Shaurya Dubey. I'm a front-end developer with a passion for
+              clean code, constant learning, efficient solutions, and sour beer.
+              I started out coding by mostly teaching myself, and finally took
+              the plunge when I completed the web-dev bootcamp ay Juno College.
+              Now i spend most of my time honing my JavaScript skills, working
+              on fun personal projects, and frantically searching Stack Overflow
+              to figure out why I can't get my divs to line up juuuuuust right
+              on my page. Feel free to check out my portfolio below, look
+              forward to hearing from you.
+            </p>
+            <div class="techStack">
+              <p>Here's what I'm good at</p>
+              <ul>
+                <li>
+                  <i aria-hidden="true" class="fab fa-html5"></i>
+                  <span class="sr-only">
+                    <p>HTML</p>
+                  </span>
+                </li>
 
-        <section class="portfolio">
+                <li>
+                  <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                  <span class="sr-only">
+                    <p>CSS</p>
+                  </span>
+                </li>
+
+                <li>
+                  <i aria-hidden="true" class="fab fa-js-square"></i>
+                  <span class="sr-only">
+                    <p>JavaScript</p>
+                  </span>
+                </li>
+
+                <li>
+                  <i aria-hidden="true" class="devicon-sass-original"></i>
+                  <span class="sr-only">
+                    <p>Sass</p>
+                  </span>
+                </li>
+
+                <li>
+                  <i aria-hidden="true" class="devicon-jquery-plain"></i>
+                  <span class="sr-only">
+                    <p>jQuery</p>
+                  </span>
+                </li>
+
+                <li>
+                  <i aria-hidden="true" class="devicon-react-original"></i>
+                  <span class="sr-only">
+                    <p>React</p>
+                  </span>
+                </li>
+                <li>
+                  <i aria-hidden="true" class="devicon-firebase-plain"></i>
+                  <span class="sr-only">
+                    <p>Firebase</p>
+                  </span>
+                </li>
+
+                <li>
+                  <i aria-hidden="true" class="devicon-github-original"></i>
+                  <span class="sr-only">
+                    <p>GitHub</p>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="wrapper">
           <div class="portfolioHeading">
-            <h2>Portfolio</h2>
+            <h2>Stuff I made</h2>
             <p>A labor of love</p>
           </div>
           <ul class="portfolioDisplay">
             <li>
-              <img src="" alt="" />
+              <div class="portfolioImage">
+                <img
+                  src="media/projectPics/artSmart.png"
+                  alt="Image of an app"
+                />
+              </div>
               <span class="projectInfo">
-                <h3>Project Name</h3>
-                <p class="projectDetails">Project Details</p>
+                <h3>smartyPaints</h3>
+                <p class="projectDetails">
+                  A basic little art quiz that tests your knowledge on all
+                  things art ranging from Picasso to Murakami, and provides you
+                  with your score on completion. This app uses vanilla
+                  JavaScript to interact with and manipulate the DOM for it's
+                  functionality. I thoroughly enjoyed making this as it allowed
+                  me to express my passion for art.
+                </p>
+
+                <ul class="langUsed">
+                  <li>
+                    <i aria-hidden="true" class="fab fa-html5"></i>
+                    <span class="sr-only">
+                      <p>HTML</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                    <span class="sr-only">
+                      <p>CSS</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-js-square"></i>
+                    <span class="sr-only">
+                      <p>JavaScript</p>
+                    </span>
+                  </li>
+                </ul>
               </span>
             </li>
+
             <li>
-              <img src="" alt="" />
+              <div class="portfolioImage">
+                <img
+                  src="media/projectPics/Brew-Bud.png"
+                  alt="Image of an app"
+                />
+              </div>
               <span class="projectInfo">
-                <h3>Project Name</h3>
-                <p class="projectDetails">Project Details</p>
+                <h3>Brew-Bud</h3>
+                <p class="projectDetails">
+                  Brew-Bud was created to help my friends and I locate good
+                  breweries for when we visit the U.S.A. This app makes API
+                  calls to help find breweries near you, wherever you are in the
+                  United States. Results can be filtered by brewery name, city,
+                  state, and (thanks to a great
+                  <a href="https://www.geocod.io/">geocoding API</a>) zip-code.
+                </p>
+
+                <ul class="langUsed">
+                  <li>
+                    <i aria-hidden="true" class="fab fa-html5"></i>
+                    <span class="sr-only">
+                      <p>HTML</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                    <span class="sr-only">
+                      <p>CSS</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-js-square"></i>
+                    <span class="sr-only">
+                      <p>JavaScript</p>
+                    </span>
+                  </li>
+                </ul>
               </span>
             </li>
+
             <li>
-              <img src="" alt="" />
+              <div class="portfolioImage">
+                <img
+                  src="media/projectPics/artSmart.png"
+                  alt="Image of an app"
+                />
+              </div>
               <span class="projectInfo">
-                <h3>Project Name</h3>
-                <p class="projectDetails">Project Details</p>
+                <h3>Pour Decisions</h3>
+                <p class="projectDetails">
+                  I made Pour Decisions so that my friends and family would stop
+                  bugging me for cocktail recipes. This app was my first foray
+                  into jquery, and APIs. It helps you find recipes for cocktails
+                  based on drink name, ingredient, or generates a random drink
+                  recipe for when you just need one quick (been there, no
+                  judgements).
+                </p>
+
+                <ul class="langUsed">
+                  <li>
+                    <i aria-hidden="true" class="fab fa-html5"></i>
+                    <span class="sr-only">
+                      <p>HTML</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                    <span class="sr-only">
+                      <p>CSS</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-js-square"></i>
+                    <span class="sr-only">
+                      <p>JavaScript</p>
+                    </span>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="devicon-jquery-plain"></i>
+                    <span class="sr-only">
+                      <p>jQuery</p>
+                    </span>
+                  </li>
+                </ul>
               </span>
             </li>
+
             <li>
-              <img src="" alt="" />
+              <div class="portfolioImage">
+                <img
+                  src="media/projectPics/artSmart.png"
+                  alt="Image of an app"
+                />
+              </div>
               <span class="projectInfo">
-                <h3>Project Name</h3>
-                <p class="projectDetails">Project Details</p>
-              </span>
-            </li>
-            <li>
-              <img src="" alt="" />
-              <span class="projectInfo">
-                <h3>Project Name</h3>
-                <p class="projectDetails">Project Details</p>
-              </span>
-            </li>
-            <li>
-              <img src="" alt="" />
-              <span class="projectInfo">
-                <h3>Project Name</h3>
-                <p class="projectDetails">Project Details</p>
+                <h3>Gif In Touch</h3>
+                <p class="projectDetails">
+                  An App that allows you to search for gifs that relate to your
+                  mood, and then add them to an expanding timeline along with
+                  the date to chronicle your mood over time. Made in
+                  collaboration with my awesome cohort mates
+                  <a href="">QiQi</a>, <a href="">Acaccia</a>, and
+                  <a href="">Michael</a>, Gif in touch uses React, Firebase and
+                  rest APIs to create the coolest mood journal you've seen
+                </p>
+
+                <ul class="langUsed">
+                  <li>
+                    <i aria-hidden="true" class="fab fa-html5"></i>
+                    <span class="sr-only">
+                      <p>HTML</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                    <span class="sr-only">
+                      <p>CSS</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="fab fa-js-square"></i>
+                    <span class="sr-only">
+                      <p>JavaScript</p>
+                    </span>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="devicon-sass-original"></i>
+                    <span class="sr-only">
+                      <p>Sass</p>
+                    </span>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="devicon-react-original"></i>
+                    <span class="sr-only">
+                      <p>React</p>
+                    </span>
+                  </li>
+
+                  <li>
+                    <i aria-hidden="true" class="devicon-firebase-plain"></i>
+                    <span class="sr-only">
+                      <p>Firebase</p>
+                    </span>
+                  </li>
+                </ul>
               </span>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="contact">
-          <h2>Lets Chat</h2>
-          <div class="contactInfo">
-            <ul class="contactDetails">
-              <li><i>EmailIcon</i>shauryadubey123@gmail.com</li>
-              <li><i>GitIcon</i>github.com/Shaurya-dub</li>
-              <li><i>PhoneIcon</i>(647)-962-0420</li>
-              <li><i>LinkedInIcon</i>Linkedin.com/in/shauryadubey/</li>
-            </ul>
-            <form action="#">
-              <label for="text" class="sr-only">Please Enter your Name</label>
-              <input id="text" type="text" />
+      <section class="contact">
+        <h2>Lets Chat</h2>
+        <div class="contactInfo">
+          <ul class="contactDetails">
+            <li><i>EmailIcon</i>shauryadubey123@gmail.com</li>
+            <li><i>GitIcon</i>github.com/Shaurya-dub</li>
+            <li><i>PhoneIcon</i>(647)-962-0420</li>
+            <li><i>LinkedInIcon</i>Linkedin.com/in/shauryadubey/</li>
+          </ul>
+          <form action="#">
+            <label for="text" class="sr-only">Please Enter your Name</label>
+            <input id="text" type="text" />
 
-              <label for="email" class="sr-only"
-                >Please enter your email address</label
-              >
-              <input id="email" type="email" />
-              <label for="message" class="sr-only"
-                >Please enter your message</label
-              >
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-              ></textarea>
-              <button>Submit</button>
-            </form>
-          </div>
-        </section>
-      </div>
+            <label for="email" class="sr-only"
+              >Please enter your email address</label
+            >
+            <input id="email" type="email" />
+            <label for="message" class="sr-only"
+              >Please enter your message</label
+            >
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
+  <script
+    src="https://kit.fontawesome.com/df285ed768.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

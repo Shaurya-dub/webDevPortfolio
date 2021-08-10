@@ -312,4 +312,54 @@ nav {
   width: 90%;
   max-width: 1200px;
   margin: auto;
+}
+
+.aboutMe h2 {
+  text-align: center;
+}
+
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.techStack {
+  align-self: center;
+  width: 50%;
+  text-align: center;
+}
+
+.techStack ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 3rem;
+}
+
+.techStack ul li {
+  margin: auto 10px;
+}
+
+.portfolioHeading {
+  text-align: center;
+}
+
+.portfolioDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolioDisplay li {
+  display: flex;
+  background-color: aqua;
+  width: 100%;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
