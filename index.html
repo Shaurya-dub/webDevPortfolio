@@ -36,7 +36,7 @@
               Hi I'm Shaurya Dubey. I'm a front-end developer with a passion for
               clean code, constant learning, efficient solutions, and sour beer.
               I started out coding by mostly teaching myself, and finally took
-              the plunge when I completed the web-dev bootcamp ay Juno College.
+              the plunge when I completed the web-dev bootcamp at Juno College.
               Now i spend most of my time honing my JavaScript skills, working
               on fun personal projects, and frantically searching Stack Overflow
               to figure out why I can't get my divs to line up juuuuuust right
@@ -44,7 +44,7 @@
               forward to hearing from you.
             </p>
             <div class="techStack">
-              <p>Here's what I'm good at</p>
+              <h3>Here's what I'm good at</h3>
               <ul>
                 <li>
                   <i aria-hidden="true" class="fab fa-html5"></i>
@@ -121,7 +121,7 @@
                 />
               </div>
               <span class="projectInfo">
-                <h3>smartyPaints</h3>
+                <h4>smartyPaints</h4>
                 <p class="projectDetails">
                   A basic little art quiz that tests your knowledge on all
                   things art ranging from Picasso to Murakami, and provides you
@@ -164,7 +164,7 @@
                 />
               </div>
               <span class="projectInfo">
-                <h3>Brew-Bud</h3>
+                <h4>Brew-Bud</h4>
                 <p class="projectDetails">
                   Brew-Bud was created to help my friends and I locate good
                   breweries for when we visit the U.S.A. This app makes API
@@ -207,7 +207,7 @@
                 />
               </div>
               <span class="projectInfo">
-                <h3>Pour Decisions</h3>
+                <h4>Pour Decisions</h4>
                 <p class="projectDetails">
                   I made Pour Decisions so that my friends and family would stop
                   bugging me for cocktail recipes. This app was my first foray
@@ -256,7 +256,7 @@
                 />
               </div>
               <span class="projectInfo">
-                <h3>Gif In Touch</h3>
+                <h4>Gif In Touch</h4>
                 <p class="projectDetails">
                   An App that allows you to search for gifs that relate to your
                   mood, and then add them to an expanding timeline along with
@@ -276,9 +276,9 @@
                   </li>
 
                   <li>
-                    <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                    <i aria-hidden="true" class="devicon-sass-original"></i>
                     <span class="sr-only">
-                      <p>CSS</p>
+                      <p>Sass</p>
                     </span>
                   </li>
 
@@ -288,12 +288,7 @@
                       <p>JavaScript</p>
                     </span>
                   </li>
-                  <li>
-                    <i aria-hidden="true" class="devicon-sass-original"></i>
-                    <span class="sr-only">
-                      <p>Sass</p>
-                    </span>
-                  </li>
+
                   <li>
                     <i aria-hidden="true" class="devicon-react-original"></i>
                     <span class="sr-only">
@@ -315,33 +310,65 @@
       </section>
 
       <section class="contact">
-        <h2>Lets Chat</h2>
-        <div class="contactInfo">
-          <ul class="contactDetails">
-            <li><i>EmailIcon</i>shauryadubey123@gmail.com</li>
-            <li><i>GitIcon</i>github.com/Shaurya-dub</li>
-            <li><i>PhoneIcon</i>(647)-962-0420</li>
-            <li><i>LinkedInIcon</i>Linkedin.com/in/shauryadubey/</li>
-          </ul>
-          <form action="#">
-            <label for="text" class="sr-only">Please Enter your Name</label>
-            <input id="text" type="text" />
+        <div class="wrapper">
+          <h2>Lets Chat</h2>
+          <div class="contactInfo">
+            <ul class="contactDetails">
+              <li>
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <span class="sr-only">
+                  <p>email</p>
+                </span>
+                shauryadubey123@gmail.com
+              </li>
 
-            <label for="email" class="sr-only"
-              >Please enter your email address</label
-            >
-            <input id="email" type="email" />
-            <label for="message" class="sr-only"
-              >Please enter your message</label
-            >
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-            ></textarea>
-            <button>Submit</button>
-          </form>
+              <li>
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <span class="sr-only">
+                  <p>github</p>
+                </span>
+                <a href="github.com/Shaurya-dub">Shaurya-dub</a>
+              </li>
+
+              <li>
+                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                <span class="sr-only">
+                  <p>phone number</p>
+                </span>
+                (647)-962-0420
+              </li>
+              <li>
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">
+                  <p>linkedin</p>
+                </span>
+                <a href="Linkedin.com/in/shauryadubey/">/shauryadubey</a>
+              </li>
+            </ul>
+            <form action="#">
+              <div class="inputArea">
+                <label for="text" class="sr-only">Please Enter your Name</label>
+                <input id="text" type="text" placeholder="Name" required />
+
+                <label for="email" class="sr-only"
+                  >Please enter your email address</label
+                >
+                <input id="email" type="email" placeholder="E-mail" required />
+                <label for="message" class="sr-only"
+                  >Please enter your message</label
+                >
+              </div>
+              <textarea
+                name="message"
+                id="message"
+                cols="40"
+                rows="10"
+                placeholder="Message"
+                required
+              ></textarea>
+              <button>Submit</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>

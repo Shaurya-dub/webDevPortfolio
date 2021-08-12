@@ -315,12 +315,16 @@ nav {
 }
 
 .aboutMe h2 {
-  text-align: center;
+  text-align: start;
 }
 
 .personalDetails {
   display: flex;
   flex-direction: column;
+}
+
+.personalDetails p {
+  width: 70%;
 }
 
 .techStack {
@@ -352,14 +356,113 @@ nav {
   justify-content: space-between;
 }
 
+.portfolioImage {
+  width: 40%;
+}
+
+.projectInfo {
+  width: 50%;
+  text-align: end;
+}
+
 .portfolioDisplay li {
   display: flex;
-  background-color: aqua;
   width: 100%;
   list-style: none;
   margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.portfolioDisplay li:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.langUsed {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  font-size: 2rem;
+  justify-content: flex-end;
+  background-color: rosybrown;
+}
+
+.langUsed li {
+  width: auto;
+  margin: 10px;
+}
+
+.contactInfo {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+}
+
+.inputArea {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: space-between;
+}
+
+.inputArea input {
+  width: calc(50% - 5px);
+}
+
+.contactInfo button {
+  width: 200px;
+  padding: 8px;
+  margin: 10px 0px 10px auto;
+}
+
+.contactDetails li {
+  font-size: 1.2rem;
+}
+
+.contactInfo textarea,
+.inputArea input {
+  border: none;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 img {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
