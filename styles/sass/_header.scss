@@ -1,10 +1,10 @@
 header {
   height: 100vh;
-  //   background-color: coral;
+  background-color: coral;
   //   text-align: center;
-  background-image: url(/media/nexus.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: url(/media/nexus.gif);
+  // background-size: cover;
+  // background-repeat: no-repeat;
 }
 
 nav {
@@ -14,7 +14,15 @@ nav {
 
 header h1 {
   //   margin: auto;
-  background-color: black;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  background: linear-gradient(
+    to right,
+    rgba(0, 39, 46, 0.75) 0%,
+    rgba(0, 39, 46, 0.8) 38%,
+    rgba(0, 39, 46, 0.93) 76%,
+    rgba(0, 39, 46, 0.93) 100%
+  );
   color: white;
   padding: 12px;
   font-size: 4.6rem;

@@ -32,7 +32,7 @@ nav {
   display: flex;
   list-style: none;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 3rem;
 }
@@ -71,6 +71,7 @@ nav {
   list-style: none;
   margin-bottom: 20px;
   justify-content: space-between;
+  align-items: center;
 }
 .portfolioDisplay li:nth-of-type(even) {
   flex-direction: row-reverse;
@@ -133,6 +134,13 @@ nav {
 
 .contactDetails li {
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  // flex-wrap: wrap;
+}
+.contactDetails li i {
+  font-size: 2rem;
+  margin-right: 10px;
 }
 
 .contactInfo textarea,

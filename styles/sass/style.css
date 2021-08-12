@@ -1,8 +1,6 @@
 header {
   height: 100vh;
-  background-image: url(/media/nexus.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: coral;
 }
 
 nav {
@@ -11,7 +9,9 @@ nav {
 }
 
 header h1 {
-  background-color: black;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  background: linear-gradient(to right, rgba(0, 39, 46, 0.75) 0%, rgba(0, 39, 46, 0.8) 38%, rgba(0, 39, 46, 0.93) 76%, rgba(0, 39, 46, 0.93) 100%);
   color: white;
   padding: 12px;
   font-size: 4.6rem;
@@ -337,7 +337,7 @@ nav {
   display: flex;
   list-style: none;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 3rem;
 }
@@ -371,6 +371,7 @@ nav {
   list-style: none;
   margin-bottom: 20px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .portfolioDisplay li:nth-of-type(even) {
@@ -429,12 +430,23 @@ nav {
 
 .contactDetails li {
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.contactDetails li i {
+  font-size: 2rem;
+  margin-right: 10px;
 }
 
 .contactInfo textarea,
 .inputArea input {
   border: none;
   padding: 10px;
+}
+
+body {
+  font-family: "Noto Serif", serif;
 }
 
 h2 {
@@ -465,4 +477,64 @@ li {
 section {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 920px) {
+  .contactDetails li {
+    font-size: 1rem;
+  }
+
+  .contactDetails li i {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 826px) {
+  header h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 763px) {
+  .personalDetails p {
+    width: 100%;
+  }
+
+  .portfolioDisplay li,
+.portfolioDisplay li:nth-of-type(even) {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .portfolioImage,
+.projectInfo {
+    width: 100%;
+  }
+
+  .contactInfo {
+    flex-direction: column;
+  }
+
+  .inputArea {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact form,
+.inputArea input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 589px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  header h1 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

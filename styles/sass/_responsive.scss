@@ -1,0 +1,62 @@
+@media (max-width: 920px) {
+  .contactDetails li {
+    font-size: 1rem;
+  }
+  .contactDetails li i {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 826px) {
+  header h1 {
+    font-size: 4rem;
+    // width: 50%;
+    // color: red;
+  }
+}
+
+@media (max-width: 763px) {
+  .personalDetails p {
+    width: 100%;
+  }
+
+  .portfolioDisplay li,
+  .portfolioDisplay li:nth-of-type(even) {
+    flex-direction: column;
+    // background-color: salmon;
+    margin-bottom: 30px;
+  }
+  .portfolioImage,
+  .projectInfo {
+    width: 100%;
+  }
+
+  .contactInfo {
+    flex-direction: column;
+  }
+  .inputArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact form,
+  .inputArea input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 589px) {
+  header h1 {
+    font-size: 3.5rem;
+    // width: 50%;
+    // color: red;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  header h1 {
+    width: 100%;
+  }
+}
