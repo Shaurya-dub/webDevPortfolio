@@ -359,11 +359,6 @@ nav {
   margin: auto 10px;
 }
 
-.techStack ul li i:hover,
-.techStack ul li i:focus-visible {
-  color: #1a659e;
-}
-
 .portfolioHeading {
   text-align: center;
 }
@@ -419,7 +414,8 @@ nav {
 }
 
 .contact {
-  background-image: url(/media/circles.svg);
+  background-color: #f19854;
+  background-image: url(/media/topWave.svg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #edf2f4;
@@ -481,9 +477,27 @@ nav {
   padding: 10px;
 }
 
+.techStack ul li i:hover,
+.techStack ul li i:focus-visible {
+  color: #1a659e;
+}
+
+.techStack ul li i {
+  transition: all 0.5s ease;
+}
+
+.langInfo {
+  font-size: 1rem;
+  margin: 0px;
+}
+
 body {
   font-family: "Noto Serif", serif;
   color: #2b2d42;
+}
+
+p {
+  line-height: 1.75rem;
 }
 
 h2 {
@@ -513,7 +527,7 @@ h2::after {
 
 h4 {
   font-size: 1.2rem;
-  color: #d90429;
+  color: #331501;
 }
 
 img {

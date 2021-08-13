@@ -18,6 +18,7 @@
   </head>
   <body>
     <header id="particles-js">
+      <span tabindex="0"></span>
       <div class="wrapper">
         <!-- <nav>
           <ul>
@@ -27,12 +28,12 @@
             <li><a href="">Contact</a></li>
           </ul>
         </nav> -->
-        <h1>Hi, Im Shaurya. <br />Thanks for dropping in.</h1>
+        <h1 tabindex="0">Hi, Im Shaurya. <br />Thanks for dropping in.</h1>
       </div>
     </header>
 
     <main>
-      <section class="aboutMe">
+      <section tabindex="0" class="aboutMe">
         <div class="wrapper">
           <h2>About Me</h2>
           <div class="personalDetails">
@@ -51,58 +52,59 @@
               <h3>Here's what I'm good at</h3>
               <ul>
                 <li>
-                  <i aria-hidden="true" class="fab fa-html5"></i>
-                  <span class="sr-only">
-                    <p>HTML</p>
-                  </span>
+                  <i aria-hidden="true" class="fab fa-html5 html"></i>
+
+                  <p class="langInfo">HTML</p>
                 </li>
 
                 <li>
-                  <i aria-hidden="true" class="fab fa-css3-alt"></i>
-                  <span class="sr-only">
-                    <p>CSS</p>
-                  </span>
+                  <i aria-hidden="true" class="fab fa-css3-alt css"></i>
+
+                  <p class="langInfo">CSS</p>
                 </li>
 
                 <li>
-                  <i aria-hidden="true" class="fab fa-js-square"></i>
-                  <span class="sr-only">
-                    <p>JavaScript</p>
-                  </span>
+                  <i aria-hidden="true" class="fab fa-js-square javaScript"></i>
+
+                  <p class="langInfo">JavaScript</p>
                 </li>
 
                 <li>
-                  <i aria-hidden="true" class="devicon-sass-original"></i>
-                  <span class="sr-only">
-                    <p>Sass</p>
-                  </span>
+                  <i aria-hidden="true" class="devicon-sass-original sass"></i>
+
+                  <p class="langInfo">Sass</p>
                 </li>
 
                 <li>
-                  <i aria-hidden="true" class="devicon-jquery-plain"></i>
-                  <span class="sr-only">
-                    <p>jQuery</p>
-                  </span>
+                  <i aria-hidden="true" class="devicon-jquery-plain jquery"></i>
+
+                  <p class="langInfo">jQuery</p>
                 </li>
 
                 <li>
-                  <i aria-hidden="true" class="devicon-react-original"></i>
-                  <span class="sr-only">
-                    <p>React</p>
-                  </span>
+                  <i
+                    aria-hidden="true"
+                    class="devicon-react-original react"
+                  ></i>
+
+                  <p class="langInfo">React</p>
                 </li>
                 <li>
-                  <i aria-hidden="true" class="devicon-firebase-plain"></i>
-                  <span class="sr-only">
-                    <p>Firebase</p>
-                  </span>
+                  <i
+                    aria-hidden="true"
+                    class="devicon-firebase-plain firebase"
+                  ></i>
+
+                  <p class="langInfo">Firebase</p>
                 </li>
 
                 <li>
-                  <i aria-hidden="true" class="devicon-github-original"></i>
-                  <span class="sr-only">
-                    <p>GitHub</p>
-                  </span>
+                  <i
+                    aria-hidden="true"
+                    class="devicon-github-original github"
+                  ></i>
+
+                  <p class="langInfo">GitHub</p>
                 </li>
               </ul>
             </div>
@@ -116,7 +118,7 @@
             <h2>Stuff I made</h2>
           </div>
           <ul class="portfolioDisplay">
-            <li>
+            <li tabindex="0">
               <div class="portfolioImage">
                 <img
                   src="media/projectPics/smartyPaints.png"
@@ -128,10 +130,10 @@
                 <p class="projectDetails">
                   A basic little art quiz that tests your knowledge on all
                   things art ranging from Picasso to Murakami, and provides you
-                  with your score on completion. This app uses vanilla
-                  JavaScript to interact with and manipulate the DOM for it's
-                  functionality. I thoroughly enjoyed making this as it allowed
-                  me to express my passion for art.
+                  with your score on completion. This app uses jQuery to
+                  interact with and manipulate the DOM for it's functionality. I
+                  thoroughly enjoyed making this as it allowed me to express my
+                  passion for art.
                 </p>
 
                 <ul class="langUsed">
@@ -150,16 +152,16 @@
                   </li>
 
                   <li>
-                    <i aria-hidden="true" class="fab fa-js-square"></i>
+                    <i aria-hidden="true" class="devicon-jquery-plain"></i>
                     <span class="sr-only">
-                      <p>JavaScript</p>
+                      <p>jQuery</p>
                     </span>
                   </li>
                 </ul>
               </span>
             </li>
 
-            <li>
+            <li tabindex="0">
               <div class="portfolioImage">
                 <img
                   src="media/projectPics/brewBud.png"
@@ -186,9 +188,9 @@
                   </li>
 
                   <li>
-                    <i aria-hidden="true" class="fab fa-css3-alt"></i>
+                    <i aria-hidden="true" class="devicon-sass-original"></i>
                     <span class="sr-only">
-                      <p>CSS</p>
+                      <p>Sass</p>
                     </span>
                   </li>
 
@@ -202,7 +204,7 @@
               </span>
             </li>
 
-            <li>
+            <li tabindex="0">
               <div class="portfolioImage">
                 <img
                   src="media/projectPics/jewelHub.png"
@@ -210,14 +212,11 @@
                 />
               </div>
               <span class="projectInfo">
-                <h4>Pour Decisions</h4>
+                <h4>PJewel//Hub</h4>
                 <p class="projectDetails">
-                  I made Pour Decisions so that my friends and family would stop
-                  bugging me for cocktail recipes. This app was my first foray
-                  into jquery, and APIs. It helps you find recipes for cocktails
-                  based on drink name, ingredient, or generates a random drink
-                  recipe for when you just need one quick (been there, no
-                  judgements).
+                  A responsive webpage created using HTML and CSS. Like all
+                  other projects, this one also uses wrappers to ensure the page
+                  is viewable on large, small, and mobile view-widths.
                 </p>
 
                 <ul class="langUsed">
@@ -234,24 +233,11 @@
                       <p>CSS</p>
                     </span>
                   </li>
-
-                  <li>
-                    <i aria-hidden="true" class="fab fa-js-square"></i>
-                    <span class="sr-only">
-                      <p>JavaScript</p>
-                    </span>
-                  </li>
-                  <li>
-                    <i aria-hidden="true" class="devicon-jquery-plain"></i>
-                    <span class="sr-only">
-                      <p>jQuery</p>
-                    </span>
-                  </li>
                 </ul>
               </span>
             </li>
 
-            <li>
+            <li tabindex="0">
               <div class="portfolioImage">
                 <img
                   src="media/projectPics/gifInTouch.png"
@@ -312,7 +298,7 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section tabindex="0" class="contact">
         <div class="wrapper">
           <h2>Lets Chat</h2>
           <div class="contactInfo">
@@ -366,7 +352,7 @@
                 id="message"
                 cols="40"
                 rows="10"
-                placeholder="Message"
+                placeholder="What can I do for you?"
                 required
               ></textarea>
               <button>Submit</button>
