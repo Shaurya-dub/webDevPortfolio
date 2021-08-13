@@ -1,6 +1,11 @@
 html {
   font-size: 1rem;
 }
+.portfolio {
+  background-image: url(/media/Wave.svg);
+  background-size: cover;
+  background-position: left bottom;
+}
 
 .wrapper,
 nav {
@@ -10,6 +15,12 @@ nav {
 }
 
 // About Me Styling
+.aboutMe {
+  // background-color: #f7c59f;
+  background-image: url(/media/lava.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .aboutMe h2 {
   text-align: start;
 }
@@ -39,6 +50,10 @@ nav {
 .techStack ul li {
   margin: auto 10px;
 }
+.techStack ul li i:hover,
+.techStack ul li i:focus-visible {
+  color: #1a659e;
+}
 // .devicon-sass-original {
 // }
 
@@ -62,6 +77,8 @@ nav {
 .projectInfo {
   width: 50%;
   text-align: end;
+  padding: 20px;
+  color: #004e89;
 }
 
 .portfolioDisplay li {
@@ -69,33 +86,55 @@ nav {
   // background-color: aqua;
   width: 100%;
   list-style: none;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  // border-top: 2px solid red;
+  // border-left: 2px solid red;
+  // border-bottom: 2px solid red;
+  // border-radius: 5px;
 }
 .portfolioDisplay li:nth-of-type(even) {
   flex-direction: row-reverse;
+  // background-color: #d90429;
+  // background-image: url(/media/circles.svg);
+  // border-top: 0px;
+  // border-left: 0px;
+  // border-bottom: 0px;
+  // border-right: 2px solid red;
 }
-
+.portfolioDisplay li:nth-of-type(even) .projectInfo {
+  text-align: start;
+}
 .langUsed {
   display: flex;
   flex-direction: row;
   width: auto;
   font-size: 2rem;
   justify-content: flex-end;
-  background-color: rosybrown;
+  color: #219ebc;
 }
 
-.langUsed li {
+.projectInfo ul.langUsed li {
   // display: inline-block;
   // padding: 0px;
   width: auto;
   margin: 10px;
+  background-color: transparent;
+  border: 0px;
 }
 // Contact form styling
+.contact {
+  // background-color: #d90429;
+  background-image: url(/media/circles.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #edf2f4;
+}
 .contactInfo {
   display: flex;
-  background-color: red;
+  // background-color: red;
   justify-content: space-between;
 }
 
@@ -112,7 +151,9 @@ nav {
   flex-direction: column;
   justify-content: space-around;
 }
-
+.contact h4 {
+  color: #edf2f4;
+}
 .contact form {
   display: flex;
   flex-direction: column;

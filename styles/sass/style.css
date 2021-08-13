@@ -1,6 +1,7 @@
 header {
   height: 100vh;
-  background-color: coral;
+  background-image: url(/media/swirl.svg);
+  background-size: cover;
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
 header h1 {
   font-family: "Oxygen", sans-serif;
   font-weight: 300;
-  background: linear-gradient(to right, rgba(0, 39, 46, 0.75) 0%, rgba(0, 39, 46, 0.8) 38%, rgba(0, 39, 46, 0.93) 76%, rgba(0, 39, 46, 0.93) 100%);
+  background: linear-gradient(to right, rgba(255, 107, 53, 0.75) 0%, rgba(235, 107, 53, 0.8) 38%, rgba(215, 107, 53, 0.93) 76%, rgba(195, 107, 53, 0.93) 100%);
   color: white;
   padding: 12px;
   font-size: 4.6rem;
@@ -307,11 +308,23 @@ html {
   font-size: 1rem;
 }
 
+.portfolio {
+  background-image: url(/media/Wave.svg);
+  background-size: cover;
+  background-position: left bottom;
+}
+
 .wrapper,
 nav {
   width: 90%;
   max-width: 1200px;
   margin: auto;
+}
+
+.aboutMe {
+  background-image: url(/media/lava.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .aboutMe h2 {
@@ -346,6 +359,11 @@ nav {
   margin: auto 10px;
 }
 
+.techStack ul li i:hover,
+.techStack ul li i:focus-visible {
+  color: #1a659e;
+}
+
 .portfolioHeading {
   text-align: center;
 }
@@ -363,19 +381,25 @@ nav {
 .projectInfo {
   width: 50%;
   text-align: end;
+  padding: 20px;
+  color: #004e89;
 }
 
 .portfolioDisplay li {
   display: flex;
   width: 100%;
   list-style: none;
-  margin-bottom: 20px;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .portfolioDisplay li:nth-of-type(even) {
   flex-direction: row-reverse;
+}
+
+.portfolioDisplay li:nth-of-type(even) .projectInfo {
+  text-align: start;
 }
 
 .langUsed {
@@ -384,17 +408,25 @@ nav {
   width: auto;
   font-size: 2rem;
   justify-content: flex-end;
-  background-color: rosybrown;
+  color: #219ebc;
 }
 
-.langUsed li {
+.projectInfo ul.langUsed li {
   width: auto;
   margin: 10px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.contact {
+  background-image: url(/media/circles.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #edf2f4;
 }
 
 .contactInfo {
   display: flex;
-  background-color: red;
   justify-content: space-between;
 }
 
@@ -409,6 +441,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.contact h4 {
+  color: #edf2f4;
 }
 
 .contact form {
@@ -447,15 +483,37 @@ nav {
 
 body {
   font-family: "Noto Serif", serif;
+  color: #2b2d42;
 }
 
 h2 {
   font-size: 2.5rem;
-  text-align: center;
+  text-align: start;
+  color: #004e98;
+  position: relative;
+}
+
+h2::after {
+  content: " ";
+  background: #ff6b35;
+  position: absolute;
+  height: 45%;
+  width: 250px;
+  top: 50%;
+  left: 0%;
+  z-index: -5;
+  opacity: 0.5;
+}
+
+.aboutMe h2::after {
+  content: " ";
+  height: 0px;
+  width: 0px;
 }
 
 h4 {
   font-size: 1.2rem;
+  color: #d90429;
 }
 
 img {

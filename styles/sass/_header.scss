@@ -1,9 +1,9 @@
 header {
   height: 100vh;
-  background-color: coral;
+  // background-color: coral;
   //   text-align: center;
-  // background-image: url(/media/nexus.gif);
-  // background-size: cover;
+  background-image: url(/media/swirl.svg);
+  background-size: cover;
   // background-repeat: no-repeat;
 }
 
@@ -18,10 +18,10 @@ header h1 {
   font-weight: 300;
   background: linear-gradient(
     to right,
-    rgba(0, 39, 46, 0.75) 0%,
-    rgba(0, 39, 46, 0.8) 38%,
-    rgba(0, 39, 46, 0.93) 76%,
-    rgba(0, 39, 46, 0.93) 100%
+    rgba(255, 107, 53, 0.75) 0%,
+    rgba(235, 107, 53, 0.8) 38%,
+    rgba(215, 107, 53, 0.93) 76%,
+    rgba(195, 107, 53, 0.93) 100%
   );
   color: white;
   padding: 12px;
