@@ -75,7 +75,19 @@ nav {
   width: 50%;
   text-align: end;
   padding: 20px;
-  color: #004e89;
+  color: black;
+}
+
+.projectLink {
+  display: flex;
+  // background-color: ivory;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.divider {
+  margin: 0px 3px;
+  text-align: center;
 }
 
 .portfolioDisplay li {
@@ -120,6 +132,8 @@ nav {
   margin: 10px;
   background-color: transparent;
   border: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 // Contact form styling
 .contact {
@@ -127,7 +141,7 @@ nav {
   background-image: url(/media/topWave.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #edf2f4;
+  color: #141516;
 }
 .contactInfo {
   display: flex;

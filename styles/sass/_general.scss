@@ -41,7 +41,7 @@ img {
 
 a {
   text-decoration: none;
-  // color: black;
+  color: rgb(12, 73, 73);
 }
 
 ul {
@@ -55,4 +55,17 @@ li {
 section {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  color: #ff6b35;
+  border: 0px;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+button:focus-visible {
+  color: white;
+  background-color: #ff6b35;
 }

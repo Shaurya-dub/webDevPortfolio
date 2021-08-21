@@ -377,7 +377,18 @@ nav {
   width: 50%;
   text-align: end;
   padding: 20px;
-  color: #004e89;
+  color: black;
+}
+
+.projectLink {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.divider {
+  margin: 0px 3px;
+  text-align: center;
 }
 
 .portfolioDisplay li {
@@ -411,6 +422,8 @@ nav {
   margin: 10px;
   background-color: transparent;
   border: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .contact {
@@ -418,7 +431,7 @@ nav {
   background-image: url(/media/topWave.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #edf2f4;
+  color: #141516;
 }
 
 .contactInfo {
@@ -536,6 +549,7 @@ img {
 
 a {
   text-decoration: none;
+  color: #0c4949;
 }
 
 ul {
@@ -549,6 +563,19 @@ li {
 section {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  color: #ff6b35;
+  border: 0px;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+button:focus-visible {
+  color: white;
+  background-color: #ff6b35;
 }
 
 @media (max-width: 920px) {
