@@ -12,6 +12,8 @@ handleSubmit = (e) => {
   })
     .then(() => {
       console.log("success!");
+      alert("Message recieved.Thank you, I will get back to you soon");
+      contactForm.reset();
     })
     .catch((error) => {
       console.log(error.message);
