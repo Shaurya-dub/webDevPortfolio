@@ -1,6 +1,20 @@
-const form = document.querySelector("form");
+// Handle Form Submit
+const contactForm = document.querySelector("form");
 
-form.addEventListener("submit", (e) => {
+handleSubmit = (e) => {
   e.preventDefault();
-  alert("Message sent, thank you");
-});
+
+  const formData = new FormData(contactForm);
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => {
+      console.log("success!");
+    })
+    .catch((error) => {
+      console.log(error.message);
+    });
+};
+contactForm.addEventListener("submit", handleSubmit);
