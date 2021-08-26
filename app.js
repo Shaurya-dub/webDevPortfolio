@@ -20,3 +20,10 @@ handleSubmit = (e) => {
     });
 };
 contactForm.addEventListener("submit", handleSubmit);
+
+// Transitions
+const scroll =
+  window.requestAnimationFrame ||
+  function (callback) {
+    window.setTimeout(callback, 1000 / 60);
+  };
