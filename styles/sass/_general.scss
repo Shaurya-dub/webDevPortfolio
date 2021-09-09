@@ -7,13 +7,17 @@ p {
   line-height: 1.75rem;
 }
 
-h2 {
+h2,
+h4,
+h6 {
   font-size: 2.5rem;
   text-align: start;
   color: #004e98;
   position: relative;
+  margin-top: 33.2px;
+  margin-bottom: 33.2px;
 }
-h2::after {
+h4::after {
   content: " ";
   background: #ff6b35;
   position: absolute;
@@ -25,12 +29,12 @@ h2::after {
   z-index: -5;
   opacity: 0.5;
 }
-.aboutMe h2::after {
-  content: " ";
-  height: 0px;
-  width: 0px;
-}
-h4 {
+// .aboutMe h2::after {
+//   content: " ";
+//   height: 0px;
+//   width: 0px;
+// }
+h5 {
   font-size: 1.2rem;
   color: #331501;
 }
