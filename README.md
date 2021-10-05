@@ -8,4 +8,4 @@ This project was created with
 * Vanilla JS
 
 ### Live Link
-To see the latest version of this project [click here] (https://www.shauryadubey.com/)
+To see the latest version of this project please visit https://www.shauryadubey.com/
