@@ -1,7 +1,7 @@
 # Web Dev Portfolio Site
 My personal portfolio site to showcase my web development learning journey, and previous projects. This is a perpetual work in progress
 
-##Technologies
+## Technologies
 This project was created with 
 * HTML
 * Sass
