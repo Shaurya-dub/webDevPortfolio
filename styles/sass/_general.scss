@@ -1,6 +1,9 @@
 body {
   font-family: "Noto Serif", serif;
   color: #2b2d42;
+  background-image: url(/media/contourLine2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
@@ -36,7 +39,8 @@ h4::after {
 // }
 h5 {
   font-size: 1.2rem;
-  color: #331501;
+  color: #0695c0;
+  text-shadow: 1px 0px 1px #babee6b2;
 }
 
 img {
