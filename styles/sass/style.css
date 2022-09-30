@@ -383,7 +383,7 @@ nav {
 
 .techStack {
   align-self: center;
-  width: 50%;
+  width: 85%;
   text-align: center;
 }
 
@@ -592,7 +592,7 @@ h4::after {
 h5 {
   font-size: 1.2rem;
   color: #0695c0;
-  text-shadow: 1px 0px 1px #babee6b2;
+  text-shadow: 1px 0px 1px rgba(186, 190, 230, 0.6980392157);
 }
 
 img {
@@ -601,7 +601,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #0c4949;
+  color: rgb(12, 73, 73);
 }
 
 ul {
@@ -634,7 +634,6 @@ button:focus-visible {
   .contactDetails li {
     font-size: 1rem;
   }
-
   .contactDetails li i {
     font-size: 1.5rem;
   }
@@ -648,27 +647,22 @@ button:focus-visible {
   .personalDetails p {
     width: 100%;
   }
-
   .portfolioDisplay li,
 .portfolioDisplay li:nth-of-type(even) {
     flex-direction: column;
     margin-bottom: 30px;
   }
-
   .portfolioImage,
 .projectInfo {
     width: 100%;
   }
-
   .contactInfo {
     flex-direction: column;
   }
-
   .inputArea {
     display: flex;
     flex-direction: column;
   }
-
   .contact form,
 .inputArea input {
     width: 100%;
@@ -679,7 +673,6 @@ button:focus-visible {
   header h1 {
     font-size: 3.5rem;
   }
-
   h2 {
     font-size: 2rem;
   }
